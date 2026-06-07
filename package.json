@@ -52,6 +52,9 @@
     "metrics:paperclip-commits": "tsx scripts/paperclip-commit-metrics.ts",
     "perf:issue-chat-long-thread": "node scripts/measure-issue-chat-long-thread.mjs"
   },
+  "dependencies": {
+    "hermes-paperclip-adapter": "github:zszohaibsalman/hermes-paperclip-adapter"
+  },
   "devDependencies": {
     "@playwright/test": "^1.58.2",
     "cross-env": "^10.1.0",
